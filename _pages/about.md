@@ -1,13 +1,14 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is 
+My name is Yuanchen Tang(唐元宸). I'm a senior(fourth-year undergraduate) student at Turing Class, [Peking University](www.pku.edu.cn).
+This is my personal page in progress.
 
 A data-driven personal website
 ======
