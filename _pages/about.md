@@ -19,3 +19,4 @@ This is an example [pdf](rice-jivy.github.io/paper1.pdf)
 + **Title**. <br>xxx. [arxiv](arxiv.org)
 
 ## More About Me
+I love various kinds of sports, especially table tennis and basketball, and I'm a fan of Stephen Curry. Music also plays a significant role in my life. I learned piano and singing in my childhood, developing a strong relative pitch. and always be fascinated by voices navigating accurately between different pitches. Additionally, I enjoy exploring the principles of human behavior in social settings, which enriches my observations and insights for both scientific research and personal lifestyle.
