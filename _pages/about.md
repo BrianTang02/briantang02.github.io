@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-My name is Yuanchen Tang(唐元宸). I'm a senior(fourth-year undergraduate) student at Turing Class, [Peking University](https://www.pku.edu.cn).
-I have been working as a research intern at PKU CFCS, advised by Prof. Xiaotie Deng. During this summer, I had a wonderful time at CMU working with Prof. [Steven Wu](https://zstevenwu.com).
+My name is Yuanchen Tang(唐元宸). I'm a senior(fourth-year undergraduate) student at [Turing Class](https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm), [Peking University](https://www.pku.edu.cn).
+I have been working as a research intern at PKU [CFCS](https://cfcs.pku.edu.cn/english/), advised by Prof. [Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm). During this summer, I had a wonderful time at CMU working with Prof. [Steven Wu](https://zstevenwu.com).
 This is my personal page in progress.
 
 This is an example [pdf](files/paper1.pdf)
