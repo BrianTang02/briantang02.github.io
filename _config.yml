@@ -21,7 +21,7 @@ repository               : "rice-jivy/rice-jivy.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "my_photo1.png"
   name             : "Yuanchen Tang"
   pronouns         : # example: "she/her"  
   bio              : "A student who likes Maths and Computer Science"
