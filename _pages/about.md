@@ -14,9 +14,10 @@ This is my personal page in progress.
 This is an example [pdf](files/paper1.pdf)
 
 ## Academic interests
+My interests lies at the interface between computer science and economics, particularly in algorithmic game theory and machine learning. Previously, I was also a fan of cryptography.
 
 ## Papers
 + **Title**. <br>xxx. [arxiv](https://arxiv.org)
 
 ## More About Me
-I love various kinds of sports, especially table tennis and basketball, and I'm a fan of Stephen Curry. Music also plays a significant role in my life. I learned piano and singing in my childhood, developing a strong relative pitch. and always be fascinated by voices navigating accurately between different pitches. Additionally, I enjoy exploring the principles of human behavior in social settings, which enriches my observations and insights for both scientific research and personal lifestyle.
+I love various kinds of sports, especially table tennis and basketball, and I'm a fan of Stephen Curry. Music also plays a significant role in my life. I learned piano and singing in my childhood, developing a strong relative pitch, and always being fascinated by voices accurately and harmoniously navigating among different pitches. Additionally, I enjoy exploring the principles of human behavior in social settings, which enriches my observations and insights for both scientific research and personal lifestyle.
