@@ -14,7 +14,7 @@ This is my personal page in progress.
 This is an example [pdf](files/paper1.pdf)
 
 ## Academic interests
-My interests lies at the interface between computer science and economics, particularly in algorithmic game theory and machine learning. Previously, I was also a fan of cryptography.
+My interests lies at the interface between computer science and economics, particularly in algorithmic game theory and machine learning. I'm also a fan of cryptography.
 
 ## Papers
 + **Title**. <br>xxx. [arxiv](https://arxiv.org)
