@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is My name is Yuanchen Tang(唐元宸). I am a fourth-year undergraduate student at [Turing Class](https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm), the School of Electronics Engineering and Computer Science [Peking University](https://www.pku.edu.cn).
+My name is Yuanchen Tang(唐元宸). I am a fourth-year undergraduate student at [Turing Class](https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm), the School of Electronics Engineering and Computer Science [Peking University](https://www.pku.edu.cn).
 I have been working as a research intern at PKU [CFCS](https://cfcs.pku.edu.cn/english/), fortunately advised by Prof. [Xiaotie Deng](https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm). During this summer, I had a wonderful time at CMU working with Prof. [Steven Wu](https://zstevenwu.com). My academic interests lies at the interface between computer science and economics, particularly in algorithmic game theory and machine learning. I'm also a fan of cryptography.
 
 ## Papers
