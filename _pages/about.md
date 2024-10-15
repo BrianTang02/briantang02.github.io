@@ -17,7 +17,7 @@ This is an example [pdf](files/paper1.pdf)
 My interests lies at the interface between computer science and economics, particularly in algorithmic game theory and machine learning. I'm also a fan of cryptography.
 
 ## Papers
-+ **Title**. <br>xxx. [arxiv](https://arxiv.org)
++ **Sealed-bid Auctions on Blockchain with Timed Commitment Outsourcing**. <br>Jichen Li\*, Yuanchen Tang\*, Jing Chen, Xiaotie Deng.  Under review.[arxiv](https://arxiv.org/abs/2410.10607)
 
 ## More About Me
 I love various kinds of sports, especially table tennis and basketball, and I'm a fan of Stephen Curry. Music also plays a significant role in my life. I learned piano and singing in my childhood, developing a strong relative pitch, and always being fascinated by voices accurately and harmoniously navigating among different pitches. Additionally, I enjoy exploring the principles of human behavior in social settings, which enriches my observations and insights for both scientific research and personal lifestyle.
