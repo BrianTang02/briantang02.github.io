@@ -21,7 +21,7 @@ repository               : "briantang02/briantang02.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "my_photo2.png"
+  avatar           : "profile.png"
   name             : "Yuanchen Tang"
   pronouns         : # example: "she/her"  
   bio              : "A student who likes Maths and Computer Science"
