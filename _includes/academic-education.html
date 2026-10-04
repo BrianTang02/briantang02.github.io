@@ -1,0 +1,9 @@
+<div class="education-list">
+  {% for entry in site.data.academic.education %}
+  <article class="education-entry">
+    <div class="entry-heading"><h3>{{ entry.institution }}</h3><span class="entry-date">{{ entry.dates }}</span></div>
+    <p>{{ entry.degree }}</p>
+    <p class="entry-methods">GPA {{ entry.gpa }}</p>
+  </article>
+  {% endfor %}
+</div>

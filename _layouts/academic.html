@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} · {{ site.name | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="theme-color" content="#f8f7f3">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | escape }} · {{ site.name | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/profile.png' | absolute_url }}">
+  <link rel="icon" href="{{ '/images/academic-favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}">Yuanchen Tang <span lang="zh">唐元宸</span></a>
+      <nav aria-label="Main navigation">
+        {% for link in site.data.navigation.main %}
+        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+  <div class="site-grid">
+    <aside class="profile" aria-label="Profile and contact">
+      <img class="portrait" src="{{ '/images/profile.png' | relative_url }}" width="1118" height="1628" alt="Yuanchen Tang in a leafy courtyard" fetchpriority="high">
+      <p class="profile-role">Ph.D. student<br><span>Computer Science</span></p>
+      <a class="affiliation" href="https://illinois.edu/">University of Illinois<br>Urbana-Champaign</a>
+      <p class="profile-location">Champaign, Illinois</p>
+      <div class="profile-links">
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }} <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="{{ '/files/Yuanchen_Tang_CV.pdf' | relative_url }}">Curriculum vitae <span class="file-label">PDF</span></a>
+      </div>
+      <p class="profile-note"><q>Cool heads but warm hearts.</q><br><a class="quote-author" href="https://competitionandappropriation.econ.ucla.edu/wp-content/uploads/sites/95/2017/09/KeynesOnMarshall.pdf#page=61">— Alfred Marshall</a></p>
+    </aside>
+    <main id="main-content" tabindex="-1">
+      {{ content }}
+    </main>
+  </div>
+  <footer class="site-footer">
+    <span>© {{ site.time | date: '%Y' }} Yuanchen Tang</span>
+    <span>Updated {{ site.data.academic.updated }} · <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a></span>
+  </footer>
+</body>
+</html>

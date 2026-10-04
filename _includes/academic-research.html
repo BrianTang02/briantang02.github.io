@@ -1,0 +1,12 @@
+<div class="research-list">
+  {% for project in site.data.academic.research %}
+  <article class="research-entry">
+    <div class="entry-heading"><h3>{{ project.title }}</h3><span class="entry-date">{{ project.dates }}</span></div>
+    <p class="entry-institution">{{ project.institution }}{% if page.url == '/cv/' %} · {{ project.location }}{% endif %}</p>
+    <p class="entry-advisors">Advised by {{ project.advisors }}</p>
+    <p>{{ project.summary }}</p>
+    {% if page.url == '/cv/' %}<p>{{ project.results }}</p>{% endif %}
+    <p class="entry-methods">{{ project.methods }}</p>
+  </article>
+  {% endfor %}
+</div>

@@ -1,64 +1,43 @@
 ---
-layout: archive
-title: "CV"
+layout: academic
+title: "Curriculum vitae"
 permalink: /cv/
-author_profile: true
+description: "Education, research, publications, honors, and skills of Yuanchen Tang. Updated October 2026."
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
-
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<header class="page-intro">
+  <p class="eyebrow">Academic background</p>
+  <h1>Curriculum vitae</h1>
+  <p>Yuanchen Tang <span class="inline-note">· Updated {{ site.data.academic.updated }}</span></p>
+  <a class="button" href="{{ '/files/Yuanchen_Tang_CV.pdf' | relative_url }}" download>Download CV <span class="file-label">PDF</span></a>
+</header>
+<section class="content-section" aria-labelledby="education-title">
+  <div class="section-heading"><h2 id="education-title">Education</h2></div>
+  {% include academic-education.html %}
+</section>
+<section class="content-section" aria-labelledby="interests-title">
+  <div class="section-heading"><h2 id="interests-title">Research interests</h2></div>
+  <p>My research lies at the intersection of computer science and economics, particularly machine learning, algorithmic game theory, and reinforcement learning. I am also interested in AI economics.</p>
+</section>
+<section class="content-section" aria-labelledby="cv-papers-title">
+  <div class="section-heading"><h2 id="cv-papers-title">Papers</h2></div>
+  {% include academic-papers.html %}
+</section>
+<section class="content-section" aria-labelledby="experience-title">
+  <div class="section-heading"><h2 id="experience-title">Research experience</h2></div>
+  {% include academic-research.html %}
+</section>
+<section class="content-section" aria-labelledby="awards-title">
+  <div class="section-heading"><h2 id="awards-title">Selected honors &amp; awards</h2></div>
+  <ul class="award-list">{% for award in site.data.academic.awards %}<li><span>{{ award.title }}</span><span class="entry-date">{{ award.year }}</span></li>{% endfor %}</ul>
+</section>
+<section class="content-section" aria-labelledby="skills-title">
+  <div class="section-heading"><h2 id="skills-title">Skills &amp; interests</h2></div>
+  <dl class="skills-list">
+    <dt>Programming</dt><dd>C++, Python, Lean, LaTeX</dd>
+    <dt>Languages</dt><dd>Chinese (native), English (fluent). TOEFL iBT: 107/120.</dd>
+    <dt>TOEFL scores</dt><dd>Reading 29 · Listening 30 · Speaking 23 · Writing 25 (best 27)</dd>
+    <dt>Sports</dt><dd>Table tennis (over 10 years), basketball, baseball</dd>
+  </dl>
+</section>
