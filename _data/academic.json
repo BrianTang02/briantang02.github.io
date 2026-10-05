@@ -4,7 +4,7 @@
   "papers": [
     {
       "title": "The Stability of Data Exchange in Competitive Markets",
-      "authors": "<strong>Yuanchen Brian Tang</strong>, Jiaxin Song, Bhaskar Ray Chaudhury, Ruta Mehta",
+      "authors": "<strong>Yuanchen Brian Tang</strong>, Jiaxin Song, Prof. Bhaskar Ray Chaudhury, Prof. Ruta Mehta",
       "venue": "NeurIPS 2026",
       "date": "May 2026",
       "url": "https://openreview.net/forum?id=qQCISzgHHs",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Sealed-bid Auctions on Blockchain with Timed Commitment Outsourcing",
-      "authors": "Jichen Li, <strong>Yuanchen Tang</strong>, Jing Chen, Xiaotie Deng",
+      "authors": "Jichen Li, <strong>Yuanchen Tang</strong>, Prof. Jing Chen, Prof. Xiaotie Deng",
       "venue": "IJTCS-FAW 2026",
       "date": "October 2024",
       "url": "https://arxiv.org/abs/2410.10607",
@@ -27,7 +27,7 @@
       "institution": "University of Illinois Urbana-Champaign",
       "location": "Champaign, USA",
       "dates": "Oct 2025 - May 2026",
-      "advisors": "<a href=\"https://www.bhaskar-ray-chaudhury.com/\">Bhaskar Ray Chaudhury</a> and <a href=\"https://rutamehta.cs.illinois.edu/\">Ruta Mehta</a>",
+      "advisors": "<a href=\"https://www.bhaskar-ray-chaudhury.com/\">Prof. Bhaskar Ray Chaudhury</a> and <a href=\"https://rutamehta.cs.illinois.edu/\">Prof. Ruta Mehta</a>",
       "methods": "Game theory · Machine learning",
       "summary": "I study the stability of data exchange among competing firms and how customer behavior affects incentives to cooperate.",
       "results": "A core-stable exchange always exists in fully rational markets for any monotone continuous prediction and utility functions, when customers choose the top-performing firm. With partially rational customers and logit-style demand, core-stable exchanges may fail to exist."
@@ -37,7 +37,7 @@
       "institution": "Carnegie Mellon University",
       "location": "Pittsburgh, USA",
       "dates": "Jun 2024 - present",
-      "advisors": "<a href=\"https://zstevenwu.com/\">Steven Wu</a>",
+      "advisors": "<a href=\"https://zstevenwu.com/\">Prof. Steven Wu</a>",
       "methods": "Game theory · Multi-agent planning",
       "summary": "I work on provably efficient multi-agent planning in large general-sum Markov games, motivated by congestion control and public goods provision.",
       "results": "We developed provably efficient algorithms for a class of Nash-computable games in which unilateral deviations have bounded influence on rewards and dynamics."
@@ -47,7 +47,7 @@
       "institution": "Peking University",
       "location": "Beijing, China",
       "dates": "Dec 2023 - Oct 2024",
-      "advisors": "<a href=\"https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm\">Xiaotie Deng</a>",
+      "advisors": "<a href=\"https://cfcs.pku.edu.cn/english/people/faculty/xiaotiedeng/index.htm\">Prof. Xiaotie Deng</a>",
       "methods": "Auction theory · Mechanism design · Cryptography · Incentive analysis",
       "summary": "I studied how to make blockchain auctions practical by outsourcing the cost of solving timed-commitment puzzles.",
       "results": "We introduced a puzzle-outsourcing market, designed a practical protocol that incentivizes truthful reporting of bidders' and solvers' private values, and derived an optimal pricing strategy for auctioneers."
